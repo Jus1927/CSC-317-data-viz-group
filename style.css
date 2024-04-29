@@ -1,16 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
 
+:root {
+  --mini: 5px;
+  --small: 20px;
+  --myOrange: rgb(255, 105, 0);
+  --clear: rgba(255, 255, 255, 0);
+  --lightshade: rgba(0, 0, 0, 0.05);
+}
+
 body{
   background-color: white;
   font-family: "NTR", sans-serif; 
 }
 
 header {
-  background-color: rgb(255, 105, 0);
+  background-color: var(--myOrange);
 }
 
 footer {
-  background-color: rgb(255, 105, 0);
+  background-color: var(--myOrange);
+}
+
+button {
+  background-color: var(--clear);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover  {
+  background-color: var(--lightshade);
 }
 
 .container {
@@ -19,4 +39,20 @@ footer {
 
 .toRight {
   margin-left: auto;
+}
+
+.smallLeftPad {
+  margin-left: var(--small);
+}
+
+.smallRightPad {
+  margin-right: var(--small);
+}
+
+.rightSpacer {
+  margin-right: var(--mini);
+}
+
+.leftSpacer {
+  margin-left: var(--mini);
 }
