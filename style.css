@@ -48,7 +48,7 @@
 .backgroundImage { 
   position: relative;
   min-height: 60vh;
-  background: url(Resources/background.jpg);
+  background: url(Resources/background2.jpg);
   background-size: cover; 
   display: flex;
   background-position: center center;
