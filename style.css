@@ -12,3 +12,11 @@ header {
 footer {
   background-color: rgb(255, 105, 0);
 }
+
+.container {
+  display: flex;
+}
+
+.toRight {
+  margin-left: auto;
+}
