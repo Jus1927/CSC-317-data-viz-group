@@ -84,6 +84,20 @@ button:hover  {
   position: absolute;
 }
 
+.back-btn {
+  width: 100px;
+  height: auto;
+  border-radius: 25px;
+  color: black;
+  font-size: large;
+}
+
+.back-btn:hover {
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+}
+
 .form-box {
   width: 380px;
   height: 480px;
@@ -157,11 +171,12 @@ button:hover  {
   border: 0;
   outline: none;
   border-radius: 30px;
+  color: black;
 }
 
 .submit-btn:hover {
   background-color: transparent;
-  color: black;
+  color: white;
 }
 
 .check-box {
