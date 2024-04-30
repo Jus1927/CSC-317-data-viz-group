@@ -9,8 +9,16 @@
 }
 
 body{
-  background-color: white;
+  background-color: var(--myOrange);
   font-family: "NTR", sans-serif; 
+}
+
+h1 {
+  background-color: white;
+}
+
+p {
+  background-color: white;
 }
 
 header {
@@ -56,6 +64,15 @@ button:hover  {
 
 .leftSpacer {
   margin-left: var(--mini);
+}
+
+.SFDATA {
+  font-size: 2.75rem;
+}
+
+.footHeader {
+  background-color: var(--myOrange);
+  color: white;
 }
 
 .hero {
