@@ -57,3 +57,7 @@ button:hover  {
 .leftSpacer {
   margin-left: var(--mini);
 }
+
+.SFDATA {
+  font-size: 2.75rem;
+}
