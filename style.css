@@ -58,24 +58,10 @@ button:hover  {
   margin-left: var(--mini);
 }
 
-.login {
-  background-color: var(--myOrange);
-  border-radius: 10px;
-  text-align: center;
-  display: inline-block;
-  padding: 5px 60px;
-  font-size: 16px;
-  font-weight: bold;
-  font-family: "NTR", sans-serif; 
-}
-
-.signup {
-  background-color: var(--myOrange);
-  border-radius: 10px;
-  text-align: center;
-  display: flex;
-  padding: 5px 60px;
-  font-size: 16px;
-  font-weight: bold;
-  font-family: "NTR", sans-serif; 
+.hero {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  background-size: cover;
+  position: absolute;
 }
