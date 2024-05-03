@@ -78,7 +78,7 @@ button:hover  {
 .hero {
   height: 100%;
   width: 100%;
-  background-image: url(./Resources/background2.jpg);
+  background-color: var(--clear);
   background-position: center;
   background-size: cover;
   position: absolute;
