@@ -207,25 +207,29 @@ span {
 }
 
 .profile-box {
-  background: #ff574a;
+  background: var(--myOrange);
   text-align: center;
-  padding: 40px 90px;
+  padding: 110px 160px;
   color: black;
   position: relative;
   border-radius: 20px;
 }
 
+.email {
+  background-color: var(--myOrange);
+}
+
 .menu-icon {
   width: 25px;
-  position: relative;
+  position: absolute;
   left: 40px;
   top: 40px;
 }
 
 .setting-icon {
   width: 25px;
-  position: relative;
-  left: 40px;
+  position: absolute;
+  right: 40px;
   top: 40px;
 }
 
