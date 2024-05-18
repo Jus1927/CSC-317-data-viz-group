@@ -194,3 +194,44 @@ span {
 #register {
   left: 450px;
 }
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(Resources/background2.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-box {
+  background: #ff574a;
+  text-align: center;
+  padding: 40px 90px;
+  color: black;
+  position: relative;
+  border-radius: 20px;
+}
+
+.menu-icon {
+  width: 25px;
+  position: relative;
+  left: 40px;
+  top: 40px;
+}
+
+.setting-icon {
+  width: 25px;
+  position: relative;
+  left: 40px;
+  top: 40px;
+}
+
+.profile-icon {
+  width: 150px;
+  border-radius: 50%;
+  background: black;
+  padding: 6px;
+}
