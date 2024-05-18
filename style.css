@@ -214,3 +214,24 @@ span {
   position: relative;
   border-radius: 20px;
 }
+
+.menu-icon {
+  width: 25px;
+  position: relative;
+  left: 40px;
+  top: 40px;
+}
+
+.setting-icon {
+  width: 25px;
+  position: relative;
+  left: 40px;
+  top: 40px;
+}
+
+.profile-icon {
+  width: 15px;
+  border-radius: 50%;
+  background: black;
+  padding: 6px;
+}
