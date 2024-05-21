@@ -230,11 +230,19 @@ span {
   top: 40px;
 }
 
+.menu-icon:hover {
+  background-color: var(--lightshade);
+}
+
 .setting-icon {
   width: 25px;
   position: absolute;
   right: 40px;
   top: 40px;
+}
+
+.setting-icon:hover {
+  background-color: var(--lightshade);
 }
 
 .profile-icon {
