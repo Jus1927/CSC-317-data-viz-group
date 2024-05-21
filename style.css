@@ -206,6 +206,10 @@ span {
   justify-content: center;
 }
 
+.flexBox {
+  display: flex;
+}
+
 .profile-box {
   background: var(--myOrange);
   text-align: center;
